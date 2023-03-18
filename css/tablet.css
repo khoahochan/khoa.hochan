@@ -1,0 +1,39 @@
+@media (min-width: 768px) and (max-width: 1400px) {
+  /* No avatar */
+
+  .avatar-img {
+    display: none;
+  }
+
+  /* Navbar */
+
+  .navbar {
+    border: none;
+  }
+  nav a:link {
+    padding: 20px 20px;
+    border: none;
+    border-left: solid rgba(0, 0, 0, 0.205);
+  }
+
+  /* Certification: fix img and border */
+
+  .img-cc {
+    height: 150px;
+    width: 300px;
+    padding-bottom: 15px;
+  }
+  .cerfiinfo {
+    padding-right: 50px;
+    flex-direction: column;
+  }
+
+  /* No text footer and tablet icon */
+
+  .text-contact {
+    display: none;
+  }
+  .icon-footer {
+    font-size: 120%;
+  }
+}

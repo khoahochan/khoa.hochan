@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+  line-height: 1.8;
+  box-sizing: border-box;
+}
+
+.bg-grey {
+  background: #d8d5d5;
+}
+
+section > .container {
+  width: 1400px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+/* Backgound for about */
+#about {
+  background-image: linear-gradient(to right, #d8d5d5, rgba(34, 34, 34, 0.678));
+}
+/* Banner and background */
+header {
+  height: 50vh;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.288),
+      rgba(34, 34, 34, 0.308)
+    ),
+    url(/images/banner.jpg);
+  background-size: cover;
+}
+
+#banner {
+  text-align: center;
+}
+
+.header-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+
+/* Avatar and Nav */
+.avatarpic {
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transform: scale(3);
+}
+
+/* use flex for nav and avatar, used navbar bootrap */
+.navbar {
+  /* display: flex; */
+  /* justify-content: center; */
+  border-left: solid rgba(0, 0, 0, 0.205);
+  text-transform: uppercase;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+.navbar a:active {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+nav a:link {
+  margin: 0px;
+  text-align: center;
+  padding: 25px 100px;
+  /* border: solid rgba(0, 0, 0, 0.205); */
+  border-right: solid rgba(0, 0, 0, 0.205);
+  text-decoration: none;
+}
+
+#about {
+  padding-top: 50px;
+}
+
+/* section > .jobinfo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  align-items: top; 
+
+  used bootrap
+} */
+
+/* layout for .experience, job, skill, education */
+
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  grid-template-rows: 70px 1fr;
+  border: 0.5px solid #dee2e6;
+}
+
+.experience-detail {
+  grid-column: 1/3;
+  margin: 50px;
+}
+
+/* visual level skill */
+.test12 {
+  background: #3c9bdbe1;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+}
+.test11 {
+  background: #b8c3c9;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/*  for certification */
+.cerfiinfo {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.cer2 {
+  border-left: solid #d6c08d;
+}
+.cer3 {
+  border-top: solid #d6c08d;
+  padding-top: 20px;
+}
+.img-cc {
+  height: 100px;
+}
+
+/* flex layout for icon and text */
+.hobbies {
+  display: flex;
+  gap: 1px;
+  justify-content: space-around;
+}
+
+/* radius for icon */
+.ic-hobbies {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  border: 0.5px solid rgb(29, 75, 228);
+  color: rgb(29, 75, 228);
+  border-radius: 50%;
+}
+
+/* project */
+.project-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.project-info {
+  margin-bottom: 1rem;
+}
+.project-detail {
+  border: 0.5px solid #dee2e6;
+}
+.project-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* table setting */
+table {
+  border-top: 0.5px solid #dee2e6;
+}
+td {
+  padding: 10px;
+}
+tr td:first-child {
+  width: 110px;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+/*Footer*/
+.icon-footer {
+  font-size: 125%;
+  color: rgb(29, 75, 228);
+}
+#footer {
+  text-align: center;
+}
+#footer a:link,
+a:visited {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 25px;
+  color: #000;
+}
+
+/* radius for text */
+.current2 {
+  background-color: rgba(32, 156, 228, 0.945);
+  padding: 3px 10px;
+  border-radius: 30%;
+  color: white;
+}

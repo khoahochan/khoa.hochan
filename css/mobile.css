@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  /* No avatar */
+
+  .avatar-img {
+    display: none;
+  }
+
+  /* Navbar column */
+
+  .navbar {
+    border: none;
+    flex-direction: column;
+  }
+  #nav-bar {
+    align-items: flex-start;
+  }
+  nav a:link {
+    padding: 20px 20px;
+    border: none;
+  }
+
+  /* Certification: fix img and border */
+
+  .img-cc {
+    height: 250px;
+    width: 450px;
+    padding-bottom: 15px;
+  }
+  .cer2 {
+    border-left: 0;
+  }
+  .cer3 {
+    border-top: 0;
+  }
+  .cerfiinfo {
+    padding-right: 50px;
+    flex-direction: column;
+    border-bottom: solid #d6c08d;
+  }
+
+  /* No text footer and mobile icon */
+
+  .text-contact {
+    display: none;
+  }
+  .icon-footer {
+    font-size: 80%;
+  }
+}
