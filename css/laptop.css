@@ -27,7 +27,7 @@ header {
       rgba(34, 34, 34, 0.288),
       rgba(34, 34, 34, 0.308)
     ),
-    url(/images/banner.jpg);
+    url(../images/banner.jpg);
   background-size: cover;
 }
 
