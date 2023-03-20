@@ -50,4 +50,17 @@
   .icon-footer {
     font-size: 80%;
   }
+    /* CSS For Project Charter */
+  .charter-goals {
+    order: 1;
+  }
+  .charter-scope {
+    order: 2;
+  }
+  .charter-teams {
+    order: 3;
+  }
+  .charter-primary {
+    order: 4;
+  }
 }
