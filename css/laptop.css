@@ -207,3 +207,13 @@ a:visited {
   border-radius: 30%;
   color: white;
 }
+
+/*CSS PROJECT CHARTER*/
+.charter-title {
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+.time-detail {
+  border-bottom: dotted cyan;
+}
